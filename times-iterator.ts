@@ -50,6 +50,9 @@ class TimesIterator {
     return this.select(fn, true)
   }
 
+  public filter = this.select
+  public reverseFilter = this.reverseSelect
+
   public takeWhile(
     fn: (number: number, index: number, arr: number[], exit: ExitFunction) => boolean,
     reverse?: boolean

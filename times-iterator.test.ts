@@ -103,8 +103,8 @@ describe('times', () => {
   })
 
   it('should stop taking values if the condition is false', () => {
-    const result = times(Infinity).takeUntil(number => number > 3)
-    expect(result).toStrictEqual([1, 2, 3])
+    const result = times(Infinity).takeUntil(number => number === 3)
+    expect(result).toStrictEqual([1, 2])
   })
 
   it('should stop taking values if the condition is false in reverse', () => {
