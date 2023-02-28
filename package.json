@@ -25,6 +25,9 @@
     "type": "git",
     "url": "git+https://github.com/rasulomaroff/times-iterator.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "Rasul Omarov",
   "license": "MIT",
   "bugs": {
