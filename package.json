@@ -10,7 +10,12 @@
     "iterator",
     "loop",
     "loops",
-    "ruby-like-iterators"
+    "ruby-like",
+    "ruby-like-iterator",
+    "javascript",
+    "typescript",
+    "javascript-iterator",
+    "typescript-iterator"
   ],
   "scripts": {
     "test": "vitest run",
