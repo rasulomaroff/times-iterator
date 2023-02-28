@@ -1,0 +1,39 @@
+{
+  "name": "times-iterator",
+  "version": "1.0.0",
+  "description": "This package is inspired by the syntax of the Ruby programming language. It adds an iterator that can be called 'n' times with a function that is passed to one of the methods of the iterator.",
+  "main": "./dist/times-iterator.js",
+  "types": "./dist/times-iterator.d.ts",
+  "files": ["dist"],
+  "keywords": [
+    "times",
+    "iterator",
+    "loop",
+    "loops",
+    "ruby-like-iterators"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasulomaroff/times-iterator.git"
+  },
+  "author": "Rasul Omarov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rasulomaroff/times-iterator/issues"
+  },
+  "homepage": "https://github.com/rasulomaroff/times-iterator#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5",
+    "vitest": "^0.29.1"
+  }
+}
